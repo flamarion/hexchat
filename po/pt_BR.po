@@ -2,15 +2,16 @@
 # Copyright (C) 2000 Free Software Foundation, Inc.
 # This file is distributed under the same license as the xchat package.
 # Frédéric L. W. Meunier <fredlwm@olympiquedemarseille.org>, 20, 2009.
-# Flamarion Jorge <flamarilinux@yahoo.com.br>, 2009.
+# Flamarion Jorge <jorge.flamarion@gmail.com>, 2009, 2012.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: xchat 2.8.6\n"
 "Report-Msgid-Bugs-To: www.hexchat.org\n"
 "POT-Creation-Date: 2012-10-15 20:19+0200\n"
-"PO-Revision-Date: 2009-12-18 19:59-0200\n"
-"Last-Translator: Flamarion Jorge <flamarilinux@yahoo.com.br>\n"
-"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"PO-Revision-Date: 2012-10-16 18:32-0300\n"
+"Last-Translator: Flamarion Jorge <jorge.flamarion@gmail.com>\n"
+"Language-Team: Português <>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,6 +19,7 @@ msgstr ""
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: BRAZIL\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: src/common/cfgfiles.c:782
 msgid "I'm busy"
@@ -5456,9 +5458,8 @@ msgid "Foreground:"
 msgstr ""
 
 #: src/fe-gtk/setup.c:1422 src/fe-gtk/setup.c:1427
-#, fuzzy
 msgid "Background:"
-msgstr "Pixmap (XPM) de fundo:"
+msgstr "Fundo:"
 
 #: src/fe-gtk/setup.c:1424
 #, fuzzy
@@ -5479,9 +5480,8 @@ msgid "Marker line:"
 msgstr ""
 
 #: src/fe-gtk/setup.c:1433
-#, fuzzy
 msgid "New message:"
-msgstr "Mensagem de saída:"
+msgstr "Nova mensagem:"
 
 #: src/fe-gtk/setup.c:1434
 #, fuzzy
@@ -5489,9 +5489,8 @@ msgid "Away user:"
 msgstr "Razão de ausência:"
 
 #: src/fe-gtk/setup.c:1435
-#, fuzzy
 msgid "Highlight:"
-msgstr "Destaque"
+msgstr "Destaque:"
 
 #: src/fe-gtk/setup.c:1437
 msgid "Spell checker:"
@@ -5507,14 +5506,12 @@ msgid "Event"
 msgstr ""
 
 #: src/fe-gtk/setup.c:1552
-#, fuzzy
 msgid "Sound file"
-msgstr "Diretório de sons:"
+msgstr "Arquivo de som"
 
 #: src/fe-gtk/setup.c:1587
-#, fuzzy
 msgid "Select a sound file"
-msgstr "Diretório de sons:"
+msgstr "Selecionar um arquivo de som"
 
 #: src/fe-gtk/setup.c:1659
 msgid "Sound playing method:"
@@ -5526,33 +5523,28 @@ msgid "External sound playing _program:"
 msgstr "Programas externos"
 
 #: src/fe-gtk/setup.c:1685
-#, fuzzy
 msgid "_External program"
-msgstr "Programas externos"
+msgstr "_Programa externo"
 
 #: src/fe-gtk/setup.c:1695
 msgid "_Automatic"
 msgstr ""
 
 #: src/fe-gtk/setup.c:1708
-#, fuzzy
 msgid "Sound files _directory:"
-msgstr "Diretório de sons:"
+msgstr "Diretório _de sons:"
 
 #: src/fe-gtk/setup.c:1747
-#, fuzzy
 msgid "Sound file:"
-msgstr "Diretório de sons:"
+msgstr "Arquivo de son:"
 
 #: src/fe-gtk/setup.c:1762
-#, fuzzy
 msgid "_Browse..."
-msgstr "Navegar..."
+msgstr "_Navegar..."
 
 #: src/fe-gtk/setup.c:1773
-#, fuzzy
 msgid "_Play"
-msgstr "Painel"
+msgstr "_Jogar"
 
 #: src/fe-gtk/setup.c:1822
 msgid "Interface"
@@ -5563,29 +5555,24 @@ msgid "Text box"
 msgstr ""
 
 #: src/fe-gtk/setup.c:1824
-#, fuzzy
 msgid "Input box"
 msgstr "Caixa de digitação"
 
 #: src/fe-gtk/setup.c:1825
-#, fuzzy
 msgid "User list"
 msgstr "Lista de usuários"
 
 #: src/fe-gtk/setup.c:1826
-#, fuzzy
 msgid "Channel switcher"
-msgstr "Janela da lista de canais.."
+msgstr "Alternador de canais"
 
 #: src/fe-gtk/setup.c:1827
-#, fuzzy
 msgid "Colors"
-msgstr "Fechar"
+msgstr "Cores"
 
 #: src/fe-gtk/setup.c:1829
-#, fuzzy
 msgid "Chatting"
-msgstr "Cancelar"
+msgstr "Conversar"
 
 #: src/fe-gtk/setup.c:1831
 msgid "General"
@@ -5600,12 +5587,10 @@ msgid "Network setup"
 msgstr ""
 
 #: src/fe-gtk/setup.c:1838
-#, fuzzy
 msgid "File transfers"
 msgstr "Transferência de arquivos"
 
 #: src/fe-gtk/setup.c:1969
-#, fuzzy
 msgid "Categories"
 msgstr "Categorias"
 
@@ -5632,9 +5617,8 @@ msgid ""
 msgstr ""
 
 #: src/fe-gtk/setup.c:2236
-#, fuzzy
 msgid ": Preferences"
-msgstr "X-Chat: Preferências"
+msgstr ": Preferências"
 
 #: src/fe-gtk/textgui.c:180
 msgid "There was an error parsing the string"
@@ -5650,18 +5634,16 @@ msgid "Print Texts File"
 msgstr ""
 
 #: src/fe-gtk/textgui.c:372
-#, fuzzy
 msgid "Edit Events"
-msgstr "Editar textos de eventos.."
+msgstr "Editar eventos"
 
 #: src/fe-gtk/textgui.c:423
 msgid "$ Number"
 msgstr ""
 
 #: src/fe-gtk/textgui.c:440
-#, fuzzy
 msgid "Load From..."
-msgstr "Carregar"
+msgstr "Carregar de"
 
 #: src/fe-gtk/textgui.c:441
 msgid "Test All"
@@ -5672,9 +5654,8 @@ msgid "URL"
 msgstr ""
 
 #: src/fe-gtk/urlgrab.c:199
-#, fuzzy
 msgid ": URL Grabber"
-msgstr "Programas a serem usados em URLs.."
+msgstr ": Manipulador de URL"
 
 #: src/fe-gtk/urlgrab.c:212
 msgid "Clear list"
